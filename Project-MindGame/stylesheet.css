@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:black;
+}
+#panel{
+    top: -250px;
+    left: 40%;
+    opacity: 0.1;
+    position: absolute;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 2%;
+    background-image: linear-gradient(to right, #a18cd1 0%, #fbc2eb 100%);
+}
+#header{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center; 
+}
+#inside {
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2%;
+    height: 200px;
+    background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 100%);
+}
+#play_btn {
+    width: 50px;
+    height: 50px;
+}
+#profilePic{
+    width: 92px;
+    height: 92px;
+    border:1px solid white;
+    border-radius: 92px;
+}
+td{
+    height: 45px;
+    width: 175px;
+    font-family: 'Bitter', serif;
+}
+b{
+    font-size: 20px;
+}
+.intro{
+    color:white;
+    position: absolute;
+    font-family: 'Bitter', serif;
+    font-size: 100px;
+}
+#welcome {
+    top: 130px;
+    left: -50%;
+}
+#to{
+    top: 130px;
+    left: -50%;
+}
+#my{
+    top:550px;
+    left:150%;
+}
+#project{
+    top:550px ;
+    left:150%;
+}
+#gameScreen {
+    display: none;
+    margin: 15px auto;
+    border:2px solid #1F1F23 ;
+    width: 720px;
+    background-size: cover;
+    background-image: url(imgs/bckground.jpg);
+}
+#gameScreen div{
+    box-sizing: border-box;
+}
+.boxContainer{
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 140px;
+    align-items: center;
+}
+.box{
+    border: 1px solid white;
+    background:#1F1F23;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    visibility: hidden;
+}
+.numbers{
+    font-size: 100px;
+    color:white;
+    display: none;
+    cursor: default;
+}
+#gameResult{
+    
+    width: 700px;
+    margin:0 auto;
+    text-align: center;
+}
+.infoAboutGame{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+   
+}
+.infoAboutGame2{
+    color:blue;
+    font-size: 30px;
+    font-family: 'Bitter', serif;
+}
